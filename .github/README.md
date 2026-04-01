@@ -8,9 +8,9 @@ Este repositório centraliza a inteligência de QA da equipe, transformando o Co
 ## 🛠️ Agentes de IA (Copilot Custom Agents)
 A plataforma é dividida em três pilares fundamentais localizados em `.github/agents/`:
 
-* **🕵️ QA Analyst (Dedé):** Especialista em análise de tickets (Redmine), detecção de riscos e geração de BDDs (Gherkin).
-* **🤖 QA Automation:** Arquiteto focado em transformar critérios de aceitação em scripts robustos utilizando **Cypress**.
-* **🔍 QA Reviewer:** Auditor de qualidade focado em segurança (OWASP), performance e cobertura de testes.
+* **🕵️ PanoQA Analyst:** Especialista em análise de tickets (Redmine), detecção de riscos e geração de BDDs (Gherkin).
+* **🤖 PanoQA Automation:** Arquiteto focado em transformar critérios de aceitação em scripts robustos utilizando **Cypress**.
+* **🔍 PanoQA Reviewer:** Auditor de qualidade focado em segurança (OWASP), performance e cobertura de testes.
 
 ## 🚀 Como Utilizar
 Para ativar a inteligência de QA no seu VS Code:
