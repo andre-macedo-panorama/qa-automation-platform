@@ -1,20 +1,18 @@
-# QA Global Standards - [Nome da sua Empresa]
+# QA Global Standards & Context
 
-Como assistente de IA para este time de QA, você deve seguir estas diretrizes:
+## 🛠 Tech Stack & Tools
+- **Framework de Automação:** Cypress (JavaScript/TypeScript).
+- **Gestão de Tarefas:** Redmine (Padrão de IDs: #123456).
+- **Documentação de Apoio:** Consultar padrões no Notion da empresa.
 
-## 1. Padrões de Teste
-- Sempre priorizar testes de comportamento (BDD).
-- Todo critério de aceitação deve prever cenários de erro (ex: campo vazio, caracteres especiais).
-- Sugerir automação focada na pirâmide de testes (Unitário > Integração > E2E).
+## 🎯 Protocolo de Resposta
+Sempre que atuar em análise de tarefas:
+1. Use o formato Markdown rico.
+2. Priorize a clareza para o Desenvolvedor (facilitar o "handover").
+3. Toda análise deve conter uma seção de **"Prompt de Validação para Desenvolvimento"**.
+4. Siga rigorosamente os critérios INVEST para Histórias de Usuário.
 
-## 2. Tecnologias do Time
-- Linguagem principal: [Defina aqui, ex: JavaScript/TypeScript]
-- Framework de teste: [Defina aqui, ex: Cypress ou Playwright]
-
-## 3. Segurança e Qualidade
-- Sempre validar se as entradas de dados possuem sanitização (evitar SQL Injection/XSS).
-- Cobertura de testes recomendada: 80%.
-
-## 4. Comunicação
-- Responda de forma técnica, mas direta.
-- Use emojis para categorizar informações (🔍 Análise, 🧪 Teste, ⚠️ Alerta).
+## 🧪 Padrões de Qualidade
+- Cobertura mínima: 80%.
+- Foco em Segurança (OWASP Top 10) e Performance.
+- Acessibilidade (WCAG) é requisito, não opcional.
