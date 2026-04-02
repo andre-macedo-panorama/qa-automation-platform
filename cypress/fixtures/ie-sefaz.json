@@ -1,0 +1,114 @@
+{
+  "pjSemIeUfSuportada": {
+    "nome": "Empresa Teste Automacao LTDA",
+    "cnpj": "83.492.071/0001-60",
+    "cnpjNumerico": "83492071000160",
+    "email": "pj.teste.semie@panoramaqa.com.br",
+    "senha": "Teste@12345",
+    "telefone": "(41) 99999-0001",
+    "endereco": {
+      "logradouro": "Rua das Flores",
+      "numero": "100",
+      "complemento": "Sala 01",
+      "bairro": "Centro",
+      "cep": "01001-000",
+      "cidade": "São Paulo",
+      "uf": "SP"
+    },
+    "ieEsperada": null,
+    "observacao": "PJ sem IE em UF suportada - deve acionar consulta SEFAZ"
+  },
+  "pjComIeUfSuportada": {
+    "nome": "Empresa Com IE Cadastrada LTDA",
+    "cnpj": "54.321.098/0001-11",
+    "cnpjNumerico": "54321098000111",
+    "email": "pj.comie@panoramaqa.com.br",
+    "senha": "Teste@12345",
+    "telefone": "(41) 99999-0002",
+    "ie": "123.456.789-0",
+    "endereco": {
+      "logradouro": "Av. Paraná",
+      "numero": "500",
+      "complemento": "",
+      "bairro": "Batel",
+      "cep": "80420-100",
+      "cidade": "Curitiba",
+      "uf": "PR"
+    },
+    "observacao": "PJ com IE já preenchida - NÃO deve sobrescrever"
+  },
+  "pjUfNaoSuportada": {
+    "nome": "Empresa Fora UF Suportada LTDA",
+    "cnpj": "99.887.766/0001-22",
+    "cnpjNumerico": "99887766000122",
+    "email": "pj.ufnaosup@panoramaqa.com.br",
+    "senha": "Teste@12345",
+    "telefone": "(21) 99999-0003",
+    "endereco": {
+      "logradouro": "Rua da Carioca",
+      "numero": "200",
+      "complemento": "",
+      "bairro": "Centro",
+      "cep": "20040-020",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ"
+    },
+    "observacao": "PJ em UF não suportada - NÃO deve consultar SEFAZ"
+  },
+  "pjIeIsento": {
+    "nome": "Empresa Isenta LTDA",
+    "cnpj": "11.222.333/0001-44",
+    "cnpjNumerico": "11222333000144",
+    "email": "pj.isento@panoramaqa.com.br",
+    "senha": "Teste@12345",
+    "telefone": "(11) 99999-0004",
+    "ie": "ISENTO",
+    "endereco": {
+      "logradouro": "Rua Augusta",
+      "numero": "300",
+      "complemento": "Ap 1",
+      "bairro": "Consolação",
+      "cep": "01305-100",
+      "cidade": "São Paulo",
+      "uf": "SP"
+    },
+    "observacao": "PJ com IE=ISENTO - NÃO deve sobrescrever e NÃO deve consultar SEFAZ"
+  },
+  "pjCnpjInvalido": {
+    "nome": "Empresa CNPJ Invalido LTDA",
+    "cnpj": "00.000.000/0000-00",
+    "cnpjNumerico": "00000000000000",
+    "email": "pj.invalido@panoramaqa.com.br",
+    "senha": "Teste@12345",
+    "telefone": "(11) 99999-0005",
+    "endereco": {
+      "logradouro": "Rua Teste",
+      "numero": "1",
+      "complemento": "",
+      "bairro": "Centro",
+      "cep": "01001-000",
+      "cidade": "São Paulo",
+      "uf": "SP"
+    },
+    "observacao": "CNPJ inválido - não deve consultar SEFAZ, cadastro deve concluir normalmente"
+  },
+  "pfSemIe": {
+    "nome": "João da Silva",
+    "cpf": "123.456.789-00",
+    "email": "pf.teste@panoramaqa.com.br",
+    "senha": "Teste@12345",
+    "telefone": "(11) 99999-0006",
+    "endereco": {
+      "logradouro": "Rua dos Testes",
+      "numero": "42",
+      "complemento": "",
+      "bairro": "Vila QA",
+      "cep": "01001-000",
+      "cidade": "São Paulo",
+      "uf": "SP"
+    },
+    "observacao": "PF - NÃO deve acionar SEFAZ em nenhum fluxo"
+  },
+  "ufsSuportadas": ["BA", "GO", "MS", "MT", "PE", "PR", "RS", "SP"],
+  "ufsNaoSuportadas": ["AC", "AL", "AM", "AP", "CE", "DF", "ES", "MA", "MG", "PA", "PB", "PI", "RJ", "RN", "RO", "RR", "SC", "SE", "TO"]
+}
