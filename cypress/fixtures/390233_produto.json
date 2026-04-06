@@ -1,0 +1,16 @@
+{
+  "fornecedor": {
+    "usuario": "fornecedor.movelbras@teste.com",
+    "senha": "Senha@Teste123"
+  },
+  "produto": {
+    "referenciaBase": "REF-BASE-TEST-001",
+    "referenciaBaseReg": "REF-BASE-TEST-002",
+    "referenciaBaseInteg": "REF-BASE-INTEG-001",
+    "descricao": "Produto de Teste Automatizado - Atividade 390233",
+    "unidade": "UN",
+    "referenciaVolume": "REF-VOL-TEST-001",
+    "referenciaVolumeInteg": "REF-VOL-INTEG-001",
+    "volumeDescricao": "Volume de Teste Automatizado"
+  }
+}
