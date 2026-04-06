@@ -14,7 +14,6 @@ const MSG_REFERENCIA_BASE_OBRIGATORIA = 'O campo Referência Base é de preenchi
 // Critério: F01
 // ---------------------------------------------------------------------------
 it('test_F01_salvar_produto_com_todos_campos_obrigatorios_preenchidos', () => {
-  // Critério: F01
   // Arrange
   cy.clearCookies();
   cy.clearLocalStorage();
@@ -46,7 +45,6 @@ it('test_F01_salvar_produto_com_todos_campos_obrigatorios_preenchidos', () => {
 // Critério: N01
 // ---------------------------------------------------------------------------
 it('test_N01_exibir_erro_correto_ao_deixar_referencia_base_em_branco', () => {
-  // Critério: N01
   // Arrange
   cy.clearCookies();
   cy.clearLocalStorage();
@@ -78,7 +76,6 @@ it('test_N01_exibir_erro_correto_ao_deixar_referencia_base_em_branco', () => {
 // Critério: RG01
 // ---------------------------------------------------------------------------
 it('test_RG01_validacao_do_campo_volume_referencia_nao_contamina_referencia_base', () => {
-  // Critério: RG01
   // Arrange
   cy.clearCookies();
   cy.clearLocalStorage();
@@ -110,7 +107,6 @@ it('test_RG01_validacao_do_campo_volume_referencia_nao_contamina_referencia_base
 // Critério: A01
 // ---------------------------------------------------------------------------
 it('test_A01_acesso_a_tela_de_cadastro_bloqueado_para_usuario_nao_autenticado', () => {
-  // Critério: A01
   // Arrange
   cy.clearCookies();
   cy.clearLocalStorage();
@@ -127,7 +123,6 @@ it('test_A01_acesso_a_tela_de_cadastro_bloqueado_para_usuario_nao_autenticado', 
 // Critério: I01
 // ---------------------------------------------------------------------------
 it('test_I01_campos_referencia_base_e_referencia_volume_persistidos_de_forma_independente', () => {
-  // Critério: I01
   // Arrange
   cy.clearCookies();
   cy.clearLocalStorage();
