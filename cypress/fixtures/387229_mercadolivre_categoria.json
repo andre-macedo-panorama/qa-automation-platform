@@ -1,0 +1,12 @@
+{
+  "operador": {
+    "usuario": "operador.hub@teste.com",
+    "senha": "Senha@Teste123"
+  },
+  "mercadoLivre": {
+    "categoriaAfetada": "Sala de Estar",
+    "statusErro": "Categoria inexistente no marketplace",
+    "skuAfetado": "114216",
+    "categoriaRegressao": "Quarto"
+  }
+}
