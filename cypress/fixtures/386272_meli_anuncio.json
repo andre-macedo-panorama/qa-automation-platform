@@ -1,0 +1,73 @@
+{
+  "operador": {
+    "usuario": "operador.hub@teste.com",
+    "senha": "Senha@Teste123"
+  },
+  "anuncioDimensoesCompletas": {
+    "sku": "SKU-MELI-TEST-001",
+    "nome": "Produto de Teste MELI - Dimensoes Completas",
+    "dimensoesProduto": {
+      "altura": 10,
+      "largura": 15,
+      "comprimento": 20,
+      "peso": 0.5
+    },
+    "dimensoesPacote": {
+      "altura": 12,
+      "largura": 18,
+      "comprimento": 22,
+      "peso": 0.7
+    }
+  },
+  "anuncioSemDimensoesProduto": {
+    "sku": "SKU-MELI-TEST-002",
+    "nome": "Produto de Teste MELI - Sem Dimensoes Produto",
+    "dimensoesProduto": {
+      "altura": null,
+      "largura": null,
+      "comprimento": null,
+      "peso": null
+    },
+    "dimensoesPacote": {
+      "altura": 12,
+      "largura": 18,
+      "comprimento": 22,
+      "peso": 0.7
+    }
+  },
+  "anuncioSemDimensoesPacote": {
+    "sku": "SKU-MELI-TEST-003",
+    "nome": "Produto de Teste MELI - Sem Dimensoes Pacote",
+    "dimensoesProduto": {
+      "altura": 10,
+      "largura": 15,
+      "comprimento": 20,
+      "peso": 0.5
+    },
+    "dimensoesPacote": {
+      "altura": null,
+      "largura": null,
+      "comprimento": null,
+      "peso": null
+    }
+  },
+  "anuncioFalhaAnterior": {
+    "sku": "SKU-MELI-TEST-004",
+    "nome": "Produto de Teste MELI - Reprocessamento Apos Correcao",
+    "dimensoesProduto": {
+      "altura": 8,
+      "largura": 12,
+      "comprimento": 16,
+      "peso": 0.3
+    },
+    "dimensoesPacote": {
+      "altura": 10,
+      "largura": 14,
+      "comprimento": 18,
+      "peso": 0.5
+    }
+  },
+  "msgErroDimensoesProduto": "As dimensões do produto são obrigatórias para publicação no Mercado Livre",
+  "msgErroDimensoesPacote": "As dimensões do pacote são obrigatórias para publicação no Mercado Livre",
+  "statusPublicado": "Publicado"
+}
