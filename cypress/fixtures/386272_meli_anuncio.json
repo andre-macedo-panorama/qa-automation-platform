@@ -67,7 +67,7 @@
       "peso": 0.5
     }
   },
-  "msgErroDimensoesProduto": "As dimensoes do produto sao obrigatorias para publicacao no Mercado Livre",
-  "msgErroDimensoesPacote": "As dimensoes do pacote sao obrigatorias para publicacao no Mercado Livre",
+  "msgErroDimensoesProduto": "As dimensões do produto são obrigatórias para publicação no Mercado Livre",
+  "msgErroDimensoesPacote": "As dimensões do pacote são obrigatórias para publicação no Mercado Livre",
   "statusPublicado": "Publicado"
 }
